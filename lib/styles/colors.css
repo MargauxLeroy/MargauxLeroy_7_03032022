@@ -3,14 +3,10 @@ body {
   --dark-grey: #c7bebe;
 
   --grey: #e7e7e7;
-  --grey-hover: #e0e0e0;
 
   --blue: #3282f7;
-  --blue-hover: #2a75e6;
-
   --red: #ed6454;
-  --red-hover: #dd5647;
-
   --green: #68d9a4;
-  --green-hover: #54c490;
+
+  --hover-filter: brightness(95%);
 }
