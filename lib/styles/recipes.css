@@ -1,0 +1,50 @@
+@import "./commons.css";
+
+main {
+  padding: 24px 0;
+}
+
+main article {
+  width: 30%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+main article .img {
+  height: 180px;
+  background-color: var(--dark-grey);
+}
+
+main article .informations {
+  background-color: var(--grey);
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  padding: 24px;
+}
+
+main article .informations .title,
+main article .informations .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main article .informations .title .time {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+main article .informations .content .ingredients,
+main article .informations .content .description {
+  width: 50%;
+}
+
+main article .informations .content .ingredients li .ingredient {
+  font-weight: 700;
+}
+
+main article .informations .content .ingredients li .quantity {
+  font-weight: 400;
+}

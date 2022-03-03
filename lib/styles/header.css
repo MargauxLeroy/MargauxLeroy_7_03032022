@@ -1,0 +1,101 @@
+@import "./commons.css";
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 24px;
+}
+
+header .logo {
+  width: 268px;
+}
+
+header .search-bar {
+  width: 100%;
+  height: 72px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+header .search-bar input {
+  height: 100%;
+  width: 100%;
+  background-color: var(--grey);
+  grid-column: 1 / 3;
+  grid-row: 1;
+  padding: 24px;
+}
+
+header .search-bar input:hover {
+  cursor: pointer;
+  background-color: var(--grey-hover);
+}
+
+header .search-bar input:focus {
+  border: 1px solid var(--dark-grey);
+}
+
+header .search-bar button {
+  padding: 0 16px;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+header .search-bar button:hover {
+  cursor: pointer;
+}
+
+/* SELECTS x3 */
+
+.select-buttons {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 12px;
+}
+
+.select-buttons .select {
+  color: white;
+  display: flex;
+  justify-content: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.select-buttons .select {
+  cursor: pointer;
+}
+
+.select-buttons .select-ingredients {
+  background-color: var(--blue);
+}
+
+.select-buttons .select-devices {
+  background-color: var(--green);
+}
+
+.select-buttons .select-ustensils {
+  background-color: var(--red);
+}
+
+.select-buttons .select-ingredients:hover {
+  background-color: var(--blue-hover);
+}
+
+.select-buttons .select-devices:hover {
+  background-color: var(--green-hover);
+}
+
+.select-buttons .select-ustensils:hover {
+  background-color: var(--red-hover);
+}
+
+.select-buttons .select h3 {
+  padding-right: 24px;
+}
