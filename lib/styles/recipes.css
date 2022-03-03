@@ -28,7 +28,7 @@ main article .informations {
   padding: 24px;
 }
 
-main article .informations .title,
+main article .informations .header,
 main article .informations .content {
   display: flex;
   flex-direction: row;
@@ -36,14 +36,14 @@ main article .informations .content {
   column-gap: 16px;
 }
 
-main article .informations .title .time {
+main article .informations .header .time {
   display: flex;
   flex-direction: row;
   align-items: start;
   column-gap: 8px;
 }
 
-main article .informations .title .time img {
+main article .informations .header .time img {
   width: 24px;
 }
 
