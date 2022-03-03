@@ -1,13 +1,17 @@
 @import "./commons.css";
 
 main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 32px;
+  row-gap: 32px;
   padding: 24px 0;
 }
 
 main article {
-  width: 30%;
   border-radius: 5px;
   overflow: hidden;
+  /* aspect-ratio: 1 / 1; */
 }
 
 main article .img {
@@ -16,6 +20,7 @@ main article .img {
 }
 
 main article .informations {
+  height: 100%;
   background-color: var(--grey);
   display: flex;
   flex-direction: column;
@@ -28,17 +33,30 @@ main article .informations .content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  column-gap: 16px;
 }
 
 main article .informations .title .time {
   display: flex;
   flex-direction: row;
+  align-items: start;
   column-gap: 8px;
+}
+
+main article .informations .title .time img {
+  width: 24px;
 }
 
 main article .informations .content .ingredients,
 main article .informations .content .description {
   width: 50%;
+}
+
+main article .informations .content .description {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 7;
+  -webkit-box-orient: vertical;
 }
 
 main article .informations .content .ingredients li .ingredient {
