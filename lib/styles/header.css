@@ -32,6 +32,7 @@ header nav .search-bar input {
   grid-column: 1 / 3;
   grid-row: 1;
   padding: 24px;
+  font-size: 18px;
   transition: all 300ms ease;
 }
 
@@ -63,24 +64,13 @@ header nav .select-buttons {
   column-gap: 12px;
 }
 
-header nav .select-buttons .select {
-  color: white;
-  display: flex;
-  justify-content: row;
-  align-items: center;
-  justify-content: space-between;
-  padding: 16px;
-  border-radius: 5px;
-  overflow: hidden;
-  transition: all 300ms ease;
-}
-
 header nav .select-buttons .select:hover {
   cursor: pointer;
   filter: var(--hover-filter);
 }
 
-header nav .select-buttons .select-ingredients {
+header nav .select-buttons .select-ingredients,
+header nav .select-buttons .select-ingredients input {
   background-color: var(--blue);
 }
 
@@ -92,6 +82,41 @@ header nav .select-buttons .select-ustensils {
   background-color: var(--red);
 }
 
-nav .select-buttons .select h3 {
+header nav .select-buttons .select {
+  color: white;
+  padding: 16px;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 300ms ease;
+  display: flex;
+  flex-direction: column;
+}
+
+header nav .select-buttons .select-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 300ms ease;
+}
+
+header nav .select-buttons .select h3 {
   padding-right: 24px;
+}
+
+header nav .select-buttons .select img {
+  transition: all 300ms ease;
+}
+
+header nav .select-buttons input,
+header nav .select-buttons ul {
+  display: none;
+  color: white;
+  font-size: 18px;
+}
+
+header nav .select-buttons ul {
+  padding-top: 24px;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 12px;
+  column-gap: 32px;
 }

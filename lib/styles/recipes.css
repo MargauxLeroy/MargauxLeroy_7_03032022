@@ -66,3 +66,7 @@ main article .informations .content .ingredients li .ingredient {
 main article .informations .content .ingredients li .quantity {
   font-weight: 400;
 }
+
+.no-recipe {
+  display: none;
+}
