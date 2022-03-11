@@ -17,11 +17,11 @@
         {
           "ingredient": "Crème de coco",
           "quantity": 2,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "Sucre",
-          "quantite": 30,
+          "quantity": 30,
           "unit": "grammes"
         },
         {
@@ -53,7 +53,7 @@
         },
         {
           "ingredient": "Carotte",
-          "quantite": 1
+          "quantity": 1
         },
         {
           "ingredient": "Citron Vert",
@@ -85,7 +85,7 @@
           "unit": "ml"
         },
         {
-          "ingredient": "Coulis de tomate",
+          "ingredient": "Coulis de tomates",
           "quantity": 25,
           "unit": "cl"
         },
@@ -100,11 +100,11 @@
         {
           "ingredient": "Huile d'olive",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 80,
-      "description": "Découper le poulet en morceaux, les faire dorer dans une cocotte avec de l'huile d'olive. Salez et poivrez. Une fois doré, laisser cuire en ajoutant de l'eau. Au bout de 30 minutes, ajouter le coulis de tomate, le lait de coco ainsi que le poivron et l'oignon découpés en morceaux. Laisser cuisiner 30 minutes de plus. Servir avec du riz",
+      "description": "Découper le poulet en morceaux, les faire dorer dans une cocotte avec de l'huile d'olive. Salez et poivrez. Une fois doré, laisser cuire en ajoutant de l'eau. Au bout de 30 minutes, ajouter le coulis de tomates, le lait de coco ainsi que le poivron et l'oignon découpés en morceaux. Laisser cuisiner 30 minutes de plus. Servir avec du riz",
       "appliance": "Cocotte",
       "ustensils": ["couteau"]
     },
@@ -166,9 +166,9 @@
           "quantity": 2
         },
         {
-          "ingredient": "Crème fraiche",
+          "ingredient": "Crème fraîche",
           "quantity": 2,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "gruyère râpé",
@@ -178,11 +178,11 @@
         {
           "ingredient": "Moutarde de Dijon",
           "quantity": 1,
-          "unite": "cuillères à soupe"
+          "unite": "cuillère(s) à soupe"
         }
       ],
       "time": 45,
-      "description": "Etaler la pâte feuilleté aux dimensions du moule, étaler la moutarde sur la pâte feuilleté, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraiche sur toute la tarte et recouvrez de gruyère râpé. Cuire au four 30 minutes",
+      "description": "Etaler la pâte feuilleté aux dimensions du moule, étaler la moutarde sur la pâte feuilleté, ajouter le thon. Découper les tomates en rondelles et les poser sur le poisson, ajouter un peu de crème fraîche sur toute la tarte et recouvrez de gruyère râpé. Cuire au four 30 minutes",
       "appliance": "Four",
       "ustensils": ["moule à tarte", "râpe à fromage", "couteau"]
     },
@@ -204,7 +204,7 @@
           "quantity": "2"
         },
         {
-          "ingredient": "Crème fraiche",
+          "ingredient": "Crème fraîche",
           "quantity": 25,
           "unit": "cl"
         },
@@ -216,11 +216,11 @@
         {
           "ingredient": "Sucre vanillé",
           "quantity": 1,
-          "unit": "sachets"
+          "unit": "sachet(s)"
         }
       ],
       "time": 50,
-      "description": "Commencez par mélanger les oeufs le sucre et le sucre vanillé dans un saladier, découper les pommes en tranches, ajouter la crème fraiche aux oeufs. Une fois que tout est pret, étalez la tarte dans le moule. N'oubliez pas de piquer le fond avec une fourchette avant depositionner les pommes sur la tarte. Finallement verser la préparation à base d'oeufs et de crême fraiche. Laisser cuire au four pendant 30 minutes",
+      "description": "Commencez par mélanger les oeufs le sucre et le sucre vanillé dans un saladier, découper les pommes en tranches, ajouter la crème fraîche aux oeufs. Une fois que tout est pret, étalez la tarte dans le moule. N'oubliez pas de piquer le fond avec une fourchette avant depositionner les pommes sur la tarte. Finallement verser la préparation à base d'oeufs et de crème fraîche. Laisser cuire au four pendant 30 minutes",
       "appliance": "Four",
       "ustensils": ["moule à tarte", "saladier", "fourchette"]
     },
@@ -254,7 +254,7 @@
         }
       ],
       "time": 50,
-      "description": "Etaler la pate dans les moules à tartelette. Faire cuire la pate 30 minutes. Découper le chocolat en morceau et le faire chauffer, y ajouter la crême liquide, ajouter le beurre et remuer jusqu'à avoir une pâte homogène. Verser la pate sur les tartelettes. Couper les fraises en 2 et les positionner sur ",
+      "description": "Etaler la pate dans les moules à tartelette. Faire cuire la pate 30 minutes. Découper le chocolat en morceau et le faire chauffer, y ajouter la crème liquide, ajouter le beurre et remuer jusqu'à avoir une pâte homogène. Verser la pate sur les tartelettes. Couper les fraises en 2 et les positionner sur ",
       "appliance": "Four",
       "ustensils": ["moule à tartelettes (6)", "casserolle"]
     },
@@ -326,7 +326,7 @@
         }
       ],
       "time": 15,
-      "description": "Peler le concombre le couper 2, retirer les pépins. Couper les olives en morceaux, ainsi que le fromage de chèvre. Ajouter le basilic ainsi que le vinaigre balsamic et l'huile d'olives à votre gout.",
+      "description": "Peler le concombre le couper 2, retirer les pépins. Couper les olives en morceaux, ainsi que le fromage de chèvre. Ajouter le basilic ainsi que le vinaigre balsamic et l'huile d'olive à votre gout.",
       "appliance": "Saladier",
       "ustensils": ["cuillère en bois", "couteau"]
     },
@@ -386,7 +386,7 @@
           "unit": "tranches"
         },
         {
-          "ingredient": "Pommes",
+          "ingredient": "Pomme",
           "quantity": 1
         },
         {
@@ -415,13 +415,13 @@
           "unit": "grammes"
         },
         {
-          "ingredient": "Pommes",
+          "ingredient": "Pomme",
           "quantity": 8
         },
         {
           "ingredient": "Sucre vanillé",
           "quantity": 6,
-          "unit": "sachets"
+          "unit": "sachet(s)"
         },
         {
           "ingredient": "Eau",
@@ -456,12 +456,12 @@
         {
           "ingredient": "Vinaigre de cidre",
           "quantity": 1,
-          "unit": "cuillère à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "huile d'olive",
           "quantity": 2,
-          "unit": "cuillère à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 40,
@@ -572,9 +572,9 @@
           "unit": "tiges"
         },
         {
-          "ingredient": "huile d'olives",
+          "ingredient": "huile d'olive",
           "quantity": 2,
-          "unit": "cuillère à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 45,
@@ -599,7 +599,7 @@
         {
           "ingredient": "Jus de citron",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "Glaçons",
@@ -688,7 +688,7 @@
           "unit": "grammes"
         },
         {
-          "ingredient": "Crème fraiche",
+          "ingredient": "Crème fraîche",
           "quantity": 200,
           "unit": "grammes"
         },
@@ -700,11 +700,11 @@
         {
           "ingredient": "huile d'olive",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 30,
-      "description": "Faire cuire les pates comme indiqué sur le paquet. Dorer les lardons dans une sauteuse avec l'huile d'olive. Ajouter la crême fraiche et baisser le feu au minimum. Quand les Tagliatelles sont prêtes les mettre dans la sauteuse et bien mélanger le tout en ajoutant le jaune d'oeuf. Servir et ajouter le parmesan râpé.",
+      "description": "Faire cuire les pates comme indiqué sur le paquet. Dorer les lardons dans une sauteuse avec l'huile d'olive. Ajouter la crème fraîche et baisser le feu au minimum. Quand les Tagliatelles sont prêtes les mettre dans la sauteuse et bien mélanger le tout en ajoutant le jaune d'oeuf. Servir et ajouter le parmesan râpé.",
       "appliance": "Sauteuse",
       "ustensils": ["râpe à fromage", "cuillère en bois"]
     },
@@ -723,7 +723,7 @@
           "quantity": 2
         },
         {
-          "ingredient": "Coulis de tomate",
+          "ingredient": "Coulis de tomates",
           "quantity": 300,
           "unit": "grammes"
         },
@@ -738,13 +738,13 @@
           "unit": "cl"
         },
         {
-          "ingredient": "Crème Fraiche",
+          "ingredient": "Crème fraîche",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 30,
-      "description": "Cuisiner la viande hachée dans une poelle à frire. Dans une autre faire cuire les oignons découpés en fins dés avec un peu de beurre. Ajouter du vin rouge. Mélanger les oigons avec la viande hachée. Faire cuire les pates le temps indiqué sur le paquet. Ajouter le coulis de tomates à la viande hachée. Une fois que les pates sont cuites, ajouter la crème fraiche à la viande hachée. Serivir.",
+      "description": "Cuisiner la viande hachée dans une poelle à frire. Dans une autre faire cuire les oignons découpés en fins dés avec un peu de beurre. Ajouter du vin rouge. Mélanger les oigons avec la viande hachée. Faire cuire les pates le temps indiqué sur le paquet. Ajouter le coulis de tomates à la viande hachée. Une fois que les pates sont cuites, ajouter la crème fraîche à la viande hachée. Serivir.",
       "appliance": "Casserolle.",
       "ustensils": ["Cuillère en bois", "louche", "couteau"]
     },
@@ -854,7 +854,7 @@
         {
           "ingredient": "Mayonnaise",
           "quantity": 2,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 40,
@@ -911,7 +911,7 @@
           "quantity": 1
         },
         {
-          "ingredient": "Huile d'olives"
+          "ingredient": "Huile d'olive"
         },
         {
           "ingredient": "Oignon",
@@ -944,7 +944,7 @@
         {
           "ingredient": "Crème fraîche",
           "quantity": 4,
-          "unit": "cuillère à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "Vermicelles",
@@ -958,7 +958,7 @@
         }
       ],
       "time": 15,
-      "description": "Faire fondre l'oseille avec du beurre demi sel, ajouter un litre d'eau. Ajouter les vermicelles. Laisser cuire. une foit prêt, sortir du feu et après 5 minutes ajouter le jaune d'oeuf et la crême fraîche",
+      "description": "Faire fondre l'oseille avec du beurre demi sel, ajouter un litre d'eau. Ajouter les vermicelles. Laisser cuire. une foit prêt, sortir du feu et après 5 minutes ajouter le jaune d'oeuf et la crème fraîche",
       "appliance": "Casserolle",
       "ustensils": ["couteau", "cuillère en bois"]
     },
@@ -987,7 +987,7 @@
           "unit": "grammes"
         },
         {
-          "ingredient": "Crême fraîche",
+          "ingredient": "Crème fraîche",
           "quantity": 10,
           "unit": "cl"
         }
@@ -1150,12 +1150,12 @@
         {
           "ingredient": "Fromage blanc",
           "quantity": 4,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "Jus de citron",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 5,
@@ -1212,12 +1212,12 @@
         {
           "ingredient": "Crème fraîche",
           "quantity": 2,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         },
         {
           "ingredient": "Cumin",
           "quantity": 1,
-          "unit": "cuillères à café"
+          "unit": "cuillère(s) à café"
         },
         {
           "ingredient": "Noix de muscade",
@@ -1261,7 +1261,7 @@
         {
           "ingredient": "Maïzena",
           "quantity": 1,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 35,
@@ -1284,7 +1284,7 @@
           "unit": "grammes"
         },
         {
-          "ingredient": "Huile d'olives",
+          "ingredient": "Huile d'olive",
           "quantity": 25,
           "unit": "cl"
         },
@@ -1385,12 +1385,12 @@
         {
           "ingredient": "Sucre en poudre",
           "quantity": 4,
-          "unit": "cuillères à café"
+          "unit": "cuillère(s) à café"
         },
         {
           "ingredient": "Bicarbonate",
           "quantity": 1,
-          "unit": "cuillères à café"
+          "unit": "cuillère(s) à café"
         }
       ],
       "time": 10,
@@ -1415,7 +1415,7 @@
         {
           "ingredient": "Sucre vanillé",
           "quantity": 1,
-          "unit": "sachets"
+          "unit": "sachet(s)"
         }
       ],
       "time": 20,
@@ -1569,7 +1569,7 @@
         {
           "ingredient": "Sucre vanillé",
           "quantity": 1,
-          "unit": "sachets"
+          "unit": "sachet(s)"
         },
         {
           "ingredient": "Oeuf",
@@ -1618,7 +1618,7 @@
         }
       ],
       "time": 5,
-      "description": "Mélanger le jus de citron avec le sucre et la mascarpone. Ajouter la crème fraiche. Mélanger le tout et mettre au congélateur pendant 1 heure. Servir",
+      "description": "Mélanger le jus de citron avec le sucre et la mascarpone. Ajouter la crème fraîche. Mélanger le tout et mettre au congélateur pendant 1 heure. Servir",
       "appliance": "Saladier",
       "ustensils": ["fouet", "verres", "cuillère en bois"]
     },
@@ -1663,11 +1663,11 @@
       "servings": 4,
       "ingredients": [
         {
-          "ingredient": "Bananes",
+          "ingredient": "Banane",
           "quantity": 2
         },
         {
-          "ingredient": "Kiwis",
+          "ingredient": "Kiwi",
           "quantity": 3
         },
         {
@@ -1682,7 +1682,7 @@
         {
           "ingredient": "Miel",
           "quantity": 2,
-          "unit": "cuillères à soupe"
+          "unit": "cuillère(s) à soupe"
         }
       ],
       "time": 0,

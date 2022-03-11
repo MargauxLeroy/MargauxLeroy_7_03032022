@@ -64,11 +64,11 @@ header nav .tags {
   flex-direction: row;
   flex-wrap: wrap;
   column-gap: 8px;
+  row-gap: 8px;
   margin-bottom: 16px;
 }
 
 header nav .tags .tag {
-  background-color: grey;
   color: white;
   font-size: 14px;
   font-weight: 700;
@@ -79,6 +79,9 @@ header nav .tags .tag {
   border-radius: 5px;
 }
 
+header nav .tags .tag img {
+  cursor: pointer;
+}
 
 /* SELECTS x3 */
 
@@ -88,13 +91,14 @@ header nav .select-buttons {
   column-gap: 12px;
 }
 
-header nav .select-buttons .select:hover {
-  cursor: pointer;
-  filter: var(--hover-filter);
+header nav .select-buttons .no-result {
+  display: none;
 }
 
 header nav .select-buttons .select-ingredients,
-header nav .select-buttons .select-ingredients input {
+header nav .select-buttons .select-ingredients .select-header,
+header nav .select-buttons .select-ingredients input,
+header nav .select-section .tags .tag {
   background-color: var(--blue);
 }
 
@@ -106,14 +110,21 @@ header nav .select-buttons .select-ustensils {
   background-color: var(--red);
 }
 
+header nav .select-buttons .select .select-header:hover, 
+header nav .select-buttons .select input:hover {
+  cursor: pointer;
+  filter: var(--hover-filter);
+}
+
 header nav .select-buttons .select {
   color: white;
-  padding: 16px;
   border-radius: 5px;
   overflow: hidden;
-  transition: all 300ms ease;
   display: flex;
   flex-direction: column;
+  max-height: 424px;
+  overflow: scroll;
+  scroll-behavior: smooth;
 }
 
 header nav .select-buttons .select-header {
@@ -121,14 +132,22 @@ header nav .select-buttons .select-header {
   align-items: center;
   justify-content: space-between;
   transition: all 300ms ease;
+  height: 100%;
 }
 
 header nav .select-buttons .select h3 {
-  padding-right: 24px;
+  padding: 0 24px;
+}
+
+header nav .select-buttons .select input {
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
 }
 
 header nav .select-buttons .select img {
   transition: all 300ms ease;
+  padding: 16px;
 }
 
 header nav .select-buttons input,
@@ -136,11 +155,16 @@ header nav .select-buttons ul {
   display: none;
   color: white;
   font-size: 18px;
+  padding: 16px 24px;
 }
 
 header nav .select-buttons ul {
-  padding-top: 24px;
   grid-template-columns: 1fr 1fr 1fr;
   row-gap: 12px;
   column-gap: 32px;
+}
+
+header nav .select-buttons ul li:hover {
+  cursor: pointer;
+  opacity: 75%;
 }
