@@ -56,6 +56,30 @@ header nav .search-bar button:hover {
   cursor: pointer;
 }
 
+
+/* TAGS SECTION */
+
+header nav .tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 8px;
+  margin-bottom: 16px;
+}
+
+header nav .tags .tag {
+  background-color: grey;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+
 /* SELECTS x3 */
 
 header nav .select-buttons {
