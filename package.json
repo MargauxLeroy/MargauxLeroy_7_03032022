@@ -1,0 +1,28 @@
+{
+  "name": "margauxleroy_7_03032022.",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MargauxLeroy/MargauxLeroy_7_03032022..git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MargauxLeroy/MargauxLeroy_7_03032022./issues"
+  },
+  "homepage": "https://github.com/MargauxLeroy/MargauxLeroy_7_03032022.#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.10.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4"
+  }
+}

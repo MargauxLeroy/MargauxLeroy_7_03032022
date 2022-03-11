@@ -93,6 +93,10 @@ header nav .select-buttons {
 
 header nav .select-buttons .no-result {
   display: none;
+  padding: 0 24px 24px 24px;
+  font-size: 18px;
+  max-width: 340px;
+  line-height: 1.4;
 }
 
 header nav .select-buttons .select-ingredients,
