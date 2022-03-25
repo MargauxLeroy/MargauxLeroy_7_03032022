@@ -106,11 +106,17 @@ header nav .select-section .tags .tag {
   background-color: var(--blue);
 }
 
-header nav .select-buttons .select-devices {
+header nav .select-buttons .select-appliances, 
+header nav .select-buttons .select-appliances .select-header,
+header nav .select-buttons .select-appliances input,
+header nav .select-section .tags .tag-appliance {
   background-color: var(--green);
 }
 
-header nav .select-buttons .select-ustensils {
+header nav .select-buttons .select-ustensils,
+header nav .select-buttons .select-ustensils .select-header,
+header nav .select-buttons .select-ustensils input, 
+header nav .select-section .tags .tag-ustensil {
   background-color: var(--red);
 }
 
