@@ -94,8 +94,10 @@ min-height: 10em;
 
 header nav .select-buttons {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   column-gap: 12px;
+  row-gap: 12px;
   position: absolute;
 }
 
@@ -141,7 +143,8 @@ header nav .select-buttons .select {
   display: flex;
   flex-direction: column;
   max-height: 424px;
-  overflow: scroll;
+  overflow-y: initial;
+  overflow-x: hidden;
   scroll-behavior: smooth;
   height: max-content;
   min-width: min-content;

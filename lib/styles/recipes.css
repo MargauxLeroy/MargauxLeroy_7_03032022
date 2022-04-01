@@ -32,9 +32,17 @@ main article .informations .header,
 main article .informations .content {
   display: flex;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   column-gap: 16px;
+  row-gap: 8px;
 }
+
+main article .informations .header{
+  flex-wrap: wrap;
+}
+
+
 
 main article .informations .header .time {
   display: flex;
@@ -69,4 +77,17 @@ main article .informations .content .ingredients li .quantity {
 
 .no-recipe {
   display: none;
+}
+
+
+@media (max-width: 1080px) { 
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 400px) { 
+  main {
+    grid-template-columns: 1fr;
+  }
 }
