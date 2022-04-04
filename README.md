@@ -1,1 +1,3 @@
-# MargauxLeroy_7_03032022.
+# Les Petits Plats
+OpenClassrooms : Projet 7
+Développez un algorithme de recherche en JavaScript.
