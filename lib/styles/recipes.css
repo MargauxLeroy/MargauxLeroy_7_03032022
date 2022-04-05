@@ -87,25 +87,29 @@ main article .informations .content .ingredients li .quantity {
   main {
     grid-template-columns: 1fr 1fr;
   }
+
+  header nav .select-buttons ul {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
-@media (max-width: 694px) { 
+@media (max-width: 695px) { 
   header nav .select-section {
     min-height: 19em;
   }
-}
 
-@media (max-width: 450px) { 
-  main {
-    grid-template-columns: 1fr;
-  }
-
-  header nav .select-section {
-    min-height: 25em;
+  header nav .select-buttons {
+    position: initial;
   }
 
   header nav .select-buttons .select {
     width: 100%;
+  }
+}
+
+@media (max-width: 500px) { 
+  main {
+    grid-template-columns: 1fr;
   }
 
   header nav .select-buttons ul {

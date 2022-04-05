@@ -67,7 +67,7 @@ header nav .tags {
   column-gap: 8px;
   row-gap: 8px;
   margin-bottom: 16px;
-  min-height: 40px;
+  /* min-height: 40px; */
 }
 
 header nav .tags .tag {
@@ -88,7 +88,7 @@ header nav .tags .tag img {
 /* SELECTS x3 */
 
 header nav .select-section {
-min-height: 10em;
+min-height: 12em;
 }
 
 
